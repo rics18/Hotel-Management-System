@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(images/cool.jpg);
+	font-family: Verdana;
+}
+
+a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family:Verdana, Geneva, sans-serif;
+}
+a:hover
+{
+	color:#000;
+	font-weight:800;
+}
+a.link
+{
+	color:#000;
+}
+input {
+	background: white;
+	color: black;
+}
+input[type="submit"]{ 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+    border-radius:4px; 
+    border: solid 1px #ccc; 
+	padding:0.3em 0.5em; 
+	font-weight:bold;
+}
+input[type="text"] { 
+    width:12em; 
+    border-radius:2px; 
+    background-color: #f5f5f5; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2); 
+}
+
+input[type="password"]{ 
+    width:12em; 
+    border-radius:2px; 
+    background-color: #f5f5f5; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2); 
+}
+
+table.menu {
+	 border-color: transparent;
+	 background-color:#000;
+	 border:none;
+	 width:1350px;
+	 align:left;
+	 border-collapse:separate;
+	 text-align:center;
+	 
+}
+table.login {
+	 border-color: transparent;
+	 border:none;
+	 width:1350px;
+	 height:50px; 
+}
+table.login1 {
+	 border-color: transparent;
+	 border:none;
+	 width:500px;
+	 height:50px;
+	 position:fixed;
+	 top:250;
+	 left:450;
+	 background-color:#71C671;
+}
+table.about {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 color:#330000;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.contact {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 color:#000;
+	 size:14px;
+	 text-align:center;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.room {
+	 border-color: transparent;
+	 border:none;
+	 width:900px;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.serve {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top; 
+}
+table.text {
+	 border-color: transparent;
+	 border:none;
+	 width:900px;
+	 text-align:center;
+	 vertical-align:top;
+	 align:center;
+	 color:#600;
+	 font-size:18px;
+}
+td.bg{
+	background-color:#A67D3D;
+	text-decoration:none;
+	text:white;
+	border-color:#000;
+	width:225px;
+}
+td.content{
+	text-decoration:none;
+	font-size:16px;
+	background-color:#71C671;
+	font-weight:550;
+	width:100px;
+}
+td.align{
+	vertical-align:top;
+	
+}
+dt{
+	color:#0000FF;
+}
+hr{
+	height:10;
+}

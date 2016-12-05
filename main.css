@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(images/brown.jpg);
+	font-family: Verdana;
+}
+
+a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family:Verdana, Geneva, sans-serif;
+}
+a:hover
+{
+	color:#000;
+	font-weight:800;
+}
+a.link
+{
+	color:#000;
+}
+table.menu {
+	 border-color: transparent;
+	 background-color:#000;
+	 border:none;
+	 width:1350px;
+	 align:left;
+	 border-collapse:separate;
+	 text-align:center;
+	 
+}
+table.about {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 color:#330000;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.contact {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 color:#000;
+	 size:14px;
+	 text-align:center;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.room {
+	 border-color: transparent;
+	 border:none;
+	 width:900px;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top;
+	 align:center;	 
+}
+table.serve {
+	 border-color: transparent;
+	 border:none;
+	 width:1000px;
+	 size:14px;
+	 text-align:justify;
+	 vertical-align:top; 
+}
+table.text {
+	 border-color: transparent;
+	 border:none;
+	 width:900px;
+	 text-align:center;
+	 vertical-align:top;
+	 align:center;
+	 color:#600;
+	 font-size:18px;
+}
+td.bg{
+	background-color:#B28647;
+	text-decoration:none;
+	text:white;
+	border-color:#000;
+	width:225px;
+}
+td.content{
+	text-decoration:none;
+	font-size:16px;
+	background-color:#71C671;
+	font-weight:550;
+	width:100px;
+}
+td.align{
+	vertical-align:top;
+	
+}
+dt{
+	color:#0000FF;
+}
+hr{
+	height:10;
+}

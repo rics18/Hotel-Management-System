@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	 background:url(images/blue.png);
+	font-family: Verdana;
+	text: black;
+	position:absolute;
+	top:0;
+	
+}
+img.logo{
+	width:450;
+	height:60;
+	position:absolute;
+	top:10;
+	left:450;
+}
+hr.b
+{
+	width:900;
+	height:1;
+	color:#000;
+	position:absolute;
+	top:80;
+	left:200;
+}
+hr.line
+{
+	width:900;
+	height:1;
+	color:#000;
+	position:absolute;
+	top:600;
+	left:200;
+}
+a.main{
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+ul{
+	color:#CF6;
+}
+table.menu {
+	 border-color: transparent;
+	 border:none;
+	 width:900px;
+	 align:left;
+	 border-collapse:separate;
+	 text-align:center;
+	 color:red;
+	 position:absolute;
+	 top:100px;
+	 left:200px;
+	 font-size:24px;
+	 font-weight:bold;
+	 font-style:oblique;
+	 
+}
+table.content {
+	 border-color: transparent;
+	 border:none;
+	 width:300px;
+	 border-collapse:separate;
+	 text-align:justify;
+	 color:#FFF;
+	 position:absolute;
+	 top:250px;
+	 left:550px;
+	 font-weight:800;
+	 
+}
+td.head{
+	color:#F00;
+}
